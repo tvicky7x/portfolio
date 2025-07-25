@@ -3,24 +3,25 @@
     "navbarList": [
       {
         "name": "Home",
-        "link": "#"
+        "link": "#",
+        "icon": "home"
       },
       {
         "name": "Projects",
-        "link": "#projects"
+        "link": "#projects",
+        "icon": "projects"
       },
       {
         "name": "Experience",
-        "link": "#experience"
+        "link": "#experience",
+        "icon": "experience"
       },
       {
         "name": "Tools",
-        "link": "#tools"
+        "link": "#tools",
+        "icon": "tools"
       },
-      {
-        "name": "Contact",
-        "link": "#contact"
-      }
+      { "name": "Blog", "link": "#blog", "icon": "blog" }
     ]
   }
 }
