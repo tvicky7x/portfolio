@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "navbarList": [
+      {
+        "name": "Home",
+        "link": "#"
+      },
+      {
+        "name": "Projects",
+        "link": "#projects"
+      },
+      {
+        "name": "Experience",
+        "link": "#experience"
+      },
+      {
+        "name": "Tools",
+        "link": "#tools"
+      },
+      {
+        "name": "Contact",
+        "link": "#contact"
+      }
+    ]
+  }
+}
