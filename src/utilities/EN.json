@@ -68,18 +68,18 @@
     ]
   },
   "recentProjectsSection": {
-    "heading": "<span class=\"text-nowrap\">Recent</span> <span class=\"secondaryHeading text-nowrap\">Projects</span>"
+    "heading": "<span class=\"text-nowrap\">Recent</span> <br><span class=\"secondaryHeading text-nowrap\">Projects</span>"
   },
   "experienceSection": {
-    "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <span class=\"secondaryHeading text-nowrap\">Experience</span>"
+    "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <br><span class=\"secondaryHeading text-nowrap\">Experience</span>"
   },
   "toolsSection": {
-    "heading": "<span class=\"text-nowrap\">Build</span> <span class=\"secondaryHeading text-nowrap\">Tools</span>"
+    "heading": "<span class=\"text-nowrap\">Build</span> <br><span class=\"secondaryHeading text-nowrap\">Tools</span>"
   },
   "blogSection": {
-    "heading": "<span class=\"text-nowrap\">Developer</span> <span class=\"secondaryHeading text-nowrap\">Thoughts</span>"
+    "heading": "<span class=\"text-nowrap\">Developer</span> <br><span class=\"secondaryHeading text-nowrap\">Thoughts</span>"
   },
   "connectSection": {
-    "heading": "<span class=\"text-nowrap\">Let's Work</span> <span class=\"secondaryHeading text-nowrap\">Together</span>"
+    "heading": "<span class=\"text-nowrap\">Let's Work</span> <br><span class=\"secondaryHeading text-nowrap\">Together</span>"
   }
 }
