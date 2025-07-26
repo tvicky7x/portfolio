@@ -6,6 +6,7 @@ import React from "react";
 import IndividualMatrix from "./IndividualMatrix";
 import CardOne from "./CardOne";
 import CardTwo from "./CardTwo";
+import matrixesJson from "@/data/matrixes.json";
 
 function HeroSection() {
   const content = getComponentTexts("heroSection");
@@ -18,7 +19,7 @@ function HeroSection() {
           <Para para={content?.para} className={"max-w-[480px]"} />
         </div>
         <div className="flex flex-wrap justify-center gap-[26px] md:gap-[40px] lg:justify-start">
-          {content?.matrixList?.map((matrix, index) => {
+          {matrixesJson?.matrixes?.map((matrix, index) => {
             return <IndividualMatrix key={index} matrix={matrix} />;
           })}
         </div>

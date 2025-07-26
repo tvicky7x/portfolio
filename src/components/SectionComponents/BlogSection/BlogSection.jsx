@@ -3,16 +3,15 @@ import LinkListContainer from "@/components/UtilityComponents/LinkListContainer"
 import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
-import blogsHomeJson from "@/data/blogs-home.json";
 
-function BlogSection() {
+function BlogSection({ blogsList }) {
   const content = getComponentTexts("blogSection");
   return (
     <SectionAnimationWrapper id={"blogs-section"}>
       <div className="flex flex-col gap-y-[20px]">
         <MainHeading heading={content?.heading} />
         <ul>
-          {blogsHomeJson?.blogs?.map((item, index) => {
+          {blogsList?.map((item, index) => {
             return (
               <li key={index} title={item?.title}>
                 <LinkListContainer link={item?.link}>

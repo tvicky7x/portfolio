@@ -3,17 +3,16 @@ import LinkListContainer from "@/components/UtilityComponents/LinkListContainer"
 import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
-import recentProjectsHomeJson from "@/data/recent-projects-home.json";
 import staticRoutes from "@/utilities/staticRoutes";
 
-async function RecentProjectsSection() {
+async function RecentProjectsSection({ projectsList }) {
   const content = getComponentTexts("recentProjectsSection");
   return (
     <SectionAnimationWrapper id={"recent-projects-section"}>
       <div className="flex flex-col gap-y-[20px]">
         <MainHeading heading={content?.heading} />
         <ul>
-          {recentProjectsHomeJson?.recentProjects?.map((item, index) => {
+          {projectsList?.map((item, index) => {
             return (
               <li key={index} title={item?.title}>
                 <LinkListContainer

@@ -54,17 +54,6 @@
   "heroSection": {
     "heading": "<span class=\"text-nowrap\">Full Stack</span> <span class=\"secondaryHeading text-nowrap\">Developer</span>",
     "para": "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
-    "matrixList": [
-      {
-        "matrix": 1.6,
-        "para": "years of <br>experience"
-      },
-      {
-        "matrix": 20,
-        "para": "projects <br>completed"
-      },
-      { "matrix": 300, "para": "LeetCode <br>problems solved" }
-    ],
     "cardList": [
       {
         "title": "my development <br>journey",

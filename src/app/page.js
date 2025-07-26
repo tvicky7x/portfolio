@@ -7,6 +7,10 @@ import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard"
 import RecentProjectsSection from "@/components/SectionComponents/RecentProjectsSection/RecentProjectsSection";
 import ToolsSection from "@/components/SectionComponents/ToolsSection/ToolsSection";
 import React from "react";
+import recentProjectsHomeJson from "@/data/recent-projects-home.json";
+import experienceHomeJson from "@/data/experience-home.json";
+import toolsHomeJson from "@/data/tools-home.json";
+import blogsHomeJson from "@/data/blogs-home.json";
 
 function page() {
   return (
@@ -19,10 +23,12 @@ function page() {
         </div>
         <div className="flex grow flex-col gap-y-[80px] md:gap-y-[90px] lg:gap-y-[120px]">
           <HeroSection />
-          <RecentProjectsSection />
-          <ExperienceSection />
-          <ToolsSection />
-          <BlogSection />
+          <RecentProjectsSection
+            projectsList={recentProjectsHomeJson?.recentProjects}
+          />
+          <ExperienceSection experienceList={experienceHomeJson?.experiences} />
+          <ToolsSection toolsList={toolsHomeJson?.tools} />
+          <BlogSection blogsList={blogsHomeJson?.blogs} />
           <ConnectSection />
         </div>
       </div>

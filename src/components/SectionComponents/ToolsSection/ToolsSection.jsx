@@ -2,17 +2,16 @@ import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrappe
 import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
-import toolsHomeJson from "@/data/tools-home.json";
 import Link from "next/link";
 
-function ToolsSection() {
+function ToolsSection({ toolsList }) {
   const content = getComponentTexts("toolsSection");
   return (
     <SectionAnimationWrapper id={"tools-section"}>
       <div className="flex flex-col gap-y-[20px]">
         <MainHeading heading={content?.heading} />
         <ul className="grid grid-flow-row grid-cols-1 gap-[10px] md:grid-cols-3 lg:grid-cols-2">
-          {toolsHomeJson?.tools?.map((item, index) => {
+          {toolsList?.map((item, index) => {
             return (
               <li key={index} title={item?.name}>
                 <Link
