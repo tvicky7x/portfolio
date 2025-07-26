@@ -83,5 +83,8 @@
   },
   "experienceSection": {
     "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <span class=\"secondaryHeading text-nowrap\">Experience</span>"
+  },
+  "toolsSection": {
+    "heading": "<span class=\"text-nowrap\">Workflow</span> <span class=\"secondaryHeading text-nowrap\">Tools</span>"
   }
 }

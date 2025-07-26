@@ -3,6 +3,7 @@ import ExperienceSection from "@/components/SectionComponents/ExperienceSection/
 import HeroSection from "@/components/SectionComponents/HeroSection/HeroSection";
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
 import RecentProjectsSection from "@/components/SectionComponents/RecentProjectsSection/RecentProjectsSection";
+import ToolsSection from "@/components/SectionComponents/ToolsSection/ToolsSection";
 import React from "react";
 
 function page() {
@@ -18,6 +19,7 @@ function page() {
           <HeroSection />
           <RecentProjectsSection />
           <ExperienceSection />
+          <ToolsSection />
         </div>
       </div>
     </MainLayout>
