@@ -1,6 +1,6 @@
 "use client";
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
-import MainHeading from "@/components/UtilityComponents/MainHeading";
+import SubHeading from "@/components/UtilityComponents/SubHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React, { use, useState } from "react";
 
@@ -71,7 +71,7 @@ function ConnectSection() {
   return (
     <SectionAnimationWrapper id={"connect-section"}>
       <div className="flex flex-col gap-y-[20px] md:gap-y-[50px]">
-        <MainHeading heading={content?.heading} />
+        <SubHeading heading={content?.heading} />
         <form onSubmit={handleSubmit} className="flex flex-col gap-y-[19px]">
           <div className="grid grid-flow-col grid-cols-2 gap-x-[20px]">
             <div className="flex flex-col gap-y-[10px]">

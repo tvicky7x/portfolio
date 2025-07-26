@@ -1,5 +1,5 @@
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
-import MainHeading from "@/components/UtilityComponents/MainHeading";
+import SubHeading from "@/components/UtilityComponents/SubHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
 
@@ -8,7 +8,7 @@ function ExperienceSection({ experienceList }) {
   return (
     <SectionAnimationWrapper id={"experience-section"}>
       <div className="flex flex-col gap-y-[20px]">
-        <MainHeading heading={content?.heading} />
+        <SubHeading heading={content?.heading} />
         <ul>
           {experienceList?.map((item, index) => {
             return (

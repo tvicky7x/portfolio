@@ -1,16 +1,16 @@
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
 import LinkListContainer from "@/components/UtilityComponents/LinkListContainer";
-import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
 import staticRoutes from "@/utilities/staticRoutes";
+import SubHeading from "@/components/UtilityComponents/SubHeading";
 
 async function RecentProjectsSection({ projectsList }) {
   const content = getComponentTexts("recentProjectsSection");
   return (
     <SectionAnimationWrapper id={"recent-projects-section"}>
       <div className="flex flex-col gap-y-[20px]">
-        <MainHeading heading={content?.heading} />
+        <SubHeading heading={content?.heading} />
         <ul>
           {projectsList?.map((item, index) => {
             return (

@@ -1,6 +1,6 @@
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
 import LinkListContainer from "@/components/UtilityComponents/LinkListContainer";
-import MainHeading from "@/components/UtilityComponents/MainHeading";
+import SubHeading from "@/components/UtilityComponents/SubHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
 
@@ -9,7 +9,7 @@ function BlogSection({ blogsList }) {
   return (
     <SectionAnimationWrapper id={"blogs-section"}>
       <div className="flex flex-col gap-y-[20px]">
-        <MainHeading heading={content?.heading} />
+        <SubHeading heading={content?.heading} />
         <ul>
           {blogsList?.map((item, index) => {
             return (

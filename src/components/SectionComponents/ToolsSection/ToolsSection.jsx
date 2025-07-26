@@ -1,15 +1,15 @@
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
-import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
 import Link from "next/link";
+import SubHeading from "@/components/UtilityComponents/SubHeading";
 
 function ToolsSection({ toolsList }) {
   const content = getComponentTexts("toolsSection");
   return (
     <SectionAnimationWrapper id={"tools-section"}>
       <div className="flex flex-col gap-y-[20px]">
-        <MainHeading heading={content?.heading} />
+        <SubHeading heading={content?.heading} />
         <ul className="grid grid-flow-row grid-cols-1 gap-[10px] md:grid-cols-3 lg:grid-cols-2">
           {toolsList?.map((item, index) => {
             return (
