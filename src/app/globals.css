@@ -30,10 +30,10 @@
   --color-secondary-accent: var(--secondary-accent-color);
 
   /* custom breakpoint */
-  --breakpoint-1440: 1440px;
-  --breakpoint-1400: 1400px;
-  --breakpoint-1080: 1080px;
-  --breakpoint-810: 810px;
+  --breakpoint-2xl: 1440px;
+  --breakpoint-xl: 1400px;
+  --breakpoint-lg: 1080px;
+  --breakpoint-md: 810px;
 }
 
 body {

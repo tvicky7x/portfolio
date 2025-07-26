@@ -7,7 +7,7 @@ import React from "react";
 
 function CardTwo({ cardDetail }) {
   return (
-    <div className="bg-secondary-accent text-background relative flex flex-col gap-y-[24px] overflow-hidden rounded-[10px] px-[20px] pt-[40px] pb-[22px]">
+    <div className="bg-secondary-accent text-background relative flex w-full max-w-[350px] flex-col gap-y-[24px] overflow-hidden rounded-[10px] px-[20px] pt-[40px] pb-[22px]">
       <img
         src={imagePrefixHandler("/card-two-line.svg", "/svg")}
         alt="card two line"
@@ -23,7 +23,7 @@ function CardTwo({ cardDetail }) {
         size={38}
         className="relative z-10"
       />
-      <div className="relative z-10 flex flex-col gap-y-[28px]">
+      <div className="relative z-10 flex flex-col gap-y-0 md:gap-y-[28px]">
         <p
           className="text-[24px] leading-[26.4px] font-medium uppercase"
           dangerouslySetInnerHTML={{ __html: cardDetail?.title || "" }}

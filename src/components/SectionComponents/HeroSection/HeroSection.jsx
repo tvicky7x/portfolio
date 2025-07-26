@@ -12,17 +12,17 @@ function HeroSection() {
 
   return (
     <SectionAnimationWrapper id={"hero-section"}>
-      <div className="810:gap-y-[60px] flex flex-col gap-y-[70px]">
-        <div className="flex flex-col gap-y-[10px]">
+      <div className="flex flex-col gap-y-[70px] md:gap-y-[60px]">
+        <div className="flex flex-col items-center gap-y-[10px] lg:items-start">
           <MainHeading heading={content?.heading} />
           <Para para={content?.para} className={"max-w-[480px]"} />
         </div>
-        <div className="flex flex-wrap justify-start gap-x-[40px]">
+        <div className="flex flex-wrap justify-center gap-[26px] md:gap-[40px] lg:justify-start">
           {content?.matrixList?.map((matrix, index) => {
             return <IndividualMatrix key={index} matrix={matrix} />;
           })}
         </div>
-        <div className="grid grid-flow-col grid-cols-2 gap-x-[30px]">
+        <div className="grid grid-flow-row justify-items-center gap-[30px] lg:grid-cols-2 lg:justify-items-stretch">
           <CardOne cardDetail={content?.cardList[0]} />
           <CardTwo cardDetail={content?.cardList[1]} />
         </div>
