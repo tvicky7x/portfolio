@@ -11,7 +11,7 @@ function page() {
             <ProfileCard />
           </div>
         </div>
-        <div className="grow linkColor">test</div>
+        <div className="grow linkColor"></div>
       </div>
     </MainLayout>
   );
