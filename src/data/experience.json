@@ -1,0 +1,22 @@
+{
+  "experiences": [
+    {
+      "company": "Tech Solutions Inc.",
+      "role": "Full Stack Developer",
+      "duration": "Jan 2020 - Present",
+      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
+    },
+    {
+      "company": "Tech Solutions Inc.",
+      "role": "Full Stack Developer",
+      "duration": "Jan 2020 - Present",
+      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
+    },
+    {
+      "company": "Tech Solutions Inc.",
+      "role": "Full Stack Developer",
+      "duration": "Jan 2020 - Present",
+      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
+    }
+  ]
+}
