@@ -21,7 +21,7 @@ function ProfileCard() {
             alt="Profile Strip Top"
             width={194}
             height={66}
-            className="absolute top-0 left-0 -translate-x-[52px] -translate-y-[26px]"
+            className="absolute top-0 left-0 -translate-x-[52px] -translate-y-[64px] lg:-translate-y-[52px] lg:-rotate-6"
           />
           <div
             style={{

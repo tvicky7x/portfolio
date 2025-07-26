@@ -10,7 +10,7 @@ function MainLayout({
   return (
     <div className={` ${outerClassName}`} style={outerStyle}>
       <div
-        className={`mx-auto max-w-[810px] px-[20px] md:px-[40px] lg:max-w-[1140px] ${innerClassName}`}
+        className={`mx-auto max-w-[810px] px-[20px] md:px-[40px] lg:max-w-[1140px] 2xl:px-0 ${innerClassName}`}
         style={innerStyle}
       >
         {children}
