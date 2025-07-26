@@ -14,21 +14,22 @@ function ProfileCard() {
 
   return (
     <SectionAnimationWrapper id={"profile-card"}>
-      <div className="px-[20px] bg-white overflow-hidden relative rounded-[16px] py-[30px] flex flex-col gap-y-[20px] ">
+      <div className="relative flex flex-col gap-y-[20px] overflow-hidden rounded-[16px] bg-white px-[20px] py-[30px]">
         <div className="relative self-center">
           <Image
             src={imagePrefixHandler("/profile-strip-top.svg", "/svg")}
             alt="Profile Strip Top"
             width={194}
             height={66}
-            className="absolute top-0 left-0 -translate-y-[26px] -translate-x-[52px] "
+            className="absolute top-0 left-0 -translate-x-[52px] -translate-y-[26px]"
           />
-          <Image
-            src={imagePrefixHandler("/profile.png", "/png")}
-            alt="Profile Picture"
-            width={240}
-            height={284}
-            className="rounded-[16px]  "
+          <div
+            style={{
+              backgroundImage: `url(${imagePrefixHandler("/profile.png", "/png")})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+            className="h-[210px] w-[260px] rounded-[16px] md:h-[284px] md:w-[240px]"
           />
         </div>
         <Image
@@ -36,14 +37,14 @@ function ProfileCard() {
           alt="Profile Strip Bottom"
           width={250}
           height={101}
-          className="absolute top-1/2 -translate-x-[60%] translate-y-[10%] left-0 "
+          className="absolute top-1/2 left-0 -translate-x-[60%] translate-y-[-60%] md:translate-y-[10%]"
         />
-        <div className="flex text-center flex-col gap-y-[80px]">
-          <h2 className="text-secondary-text-on-light font-bold text-[36px] tracking-[-1.44px] ">
+        <div className="flex flex-col gap-y-[10px] text-center lg:gap-y-[80px]">
+          <h2 className="text-secondary-text-on-light text-[36px] font-bold tracking-[-1.44px]">
             {content?.name}
           </h2>
-          <div className="flex flex-col gap-y-[20px]">
-            <p className="font-medium text-primary-text-on-light text-[18px] ">
+          <div className="flex flex-col gap-y-[16px] md:gap-y-[20px]">
+            <p className="text-primary-text-on-light max-w-[300px] self-center text-[18px] font-medium">
               {content?.description}
             </p>
             <div className="flex justify-center gap-x-[16px]">
@@ -54,7 +55,7 @@ function ProfileCard() {
                     href={staticRoutes[item?.link]}
                     target="_blank"
                     title={item?.plateForm}
-                    className="p-[6px] rounded-[6px] hover:bg-[#15131214] transition-colors duration-300 ease-in-out text-primary-accent "
+                    className="text-primary-accent rounded-[6px] p-[6px] transition-colors duration-300 ease-in-out hover:bg-[#15131214]"
                   >
                     <IconProvider icon={item?.icon} />
                   </Link>
