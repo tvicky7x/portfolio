@@ -13,7 +13,7 @@ function ProfileCard() {
   const content = getComponentTexts("profileCard");
 
   return (
-    <SectionAnimationWrapper id={"profile"}>
+    <SectionAnimationWrapper id={"profile-card"}>
       <div className="px-[20px] bg-white overflow-hidden relative rounded-[16px] py-[30px] flex flex-col gap-y-[20px] ">
         <div className="relative self-center">
           <Image

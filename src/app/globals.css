@@ -3,7 +3,7 @@
 :root {
   --background: #151312;
   --primary-text-color: #998f8f;
-  --secondary-text-color: #b6b4bd20;
+  --secondary-text-color: #b6b4bd33;
   --tertiary-text-color: #ffffff;
   --primary-text-color-on-light: #6a6b6e;
   --secondary-text-color-on-light: #000000;
@@ -12,7 +12,7 @@
   --input-color: #b6b4bd20;
   --input-text-color: #ffffff;
   --primary-accent-color: #f46c38;
-  --secondary-accent-color: #ff7a00;
+  --secondary-accent-color: #c5ff41;
 }
 
 @theme inline {
@@ -34,9 +34,4 @@ body {
   background: var(--background);
   color: var(--primary-text-color);
   font-family: "Poppins", sans-serif;
-}
-
-.linkColor a {
-  color: var(--primary-accent-color);
-  text-decoration: none;
 }

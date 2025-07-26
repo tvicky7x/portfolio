@@ -135,16 +135,6 @@ function IconProvider({
           {...props}
         />
       );
-    case "arrow-up-right":
-      return (
-        <ArrowUpRight
-          size={size}
-          color={color}
-          strokeWidth={strokeWidth}
-          className={className}
-          {...props}
-        />
-      );
     default:
       return null;
   }

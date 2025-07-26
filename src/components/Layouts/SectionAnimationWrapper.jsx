@@ -18,12 +18,16 @@ function SectionAnimationWrapper({ children, id }) {
       })
       .fromTo(
         `#${id}`,
-        { opacity: 0, y: 50 },
+        { opacity: 0, y: -20 },
         { opacity: 1, y: 0, duration: 1 }
       );
   }, [id]);
 
-  return <section id={id}>{children}</section>;
+  return (
+    <section id={id} style={{ opacity: "0" }}>
+      {children}
+    </section>
+  );
 }
 
 export default SectionAnimationWrapper;
