@@ -75,7 +75,7 @@ function IconProvider({
           {...props}
         />
       );
-    case "blog":
+    case "blogs":
       return (
         <SquarePen
           size={size}

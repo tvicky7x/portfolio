@@ -8,7 +8,7 @@ import blogsHomeJson from "@/data/blogs-home.json";
 function BlogSection() {
   const content = getComponentTexts("blogSection");
   return (
-    <SectionAnimationWrapper id={"blog-section"}>
+    <SectionAnimationWrapper id={"blogs-section"}>
       <div className="flex flex-col gap-y-[20px]">
         <MainHeading heading={content?.heading} />
         <ul>

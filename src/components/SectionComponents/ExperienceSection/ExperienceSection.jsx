@@ -2,7 +2,7 @@ import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrappe
 import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
-import experienceJson from "@/data/experience.json";
+import experienceHomeJson from "@/data/experience-home.json";
 
 function ExperienceSection() {
   const content = getComponentTexts("experienceSection");
@@ -11,7 +11,7 @@ function ExperienceSection() {
       <div className="flex flex-col gap-y-[20px]">
         <MainHeading heading={content?.heading} />
         <ul>
-          {experienceJson?.experience?.map((item, index) => {
+          {experienceHomeJson?.experience?.map((item, index) => {
             return (
               <li
                 key={index}

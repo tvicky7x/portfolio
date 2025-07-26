@@ -3,7 +3,7 @@ const staticRoutes = {
   projects: "/projects",
   experience: "/experience",
   tools: "/tools",
-  blog: "/blog",
+  blogs: "/blogs",
   resume: "",
   vercel: "https://vercel.com",
   github: "https://github.com/tvicky7x",

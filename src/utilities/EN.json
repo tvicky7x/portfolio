@@ -21,7 +21,7 @@
         "link": "tools",
         "icon": "tools"
       },
-      { "name": "Blog", "link": "blog", "icon": "blog" }
+      { "name": "Blogs", "link": "blogs", "icon": "blogs" }
     ]
   },
   "profileCard": {
