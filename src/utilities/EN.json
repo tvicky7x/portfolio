@@ -85,6 +85,9 @@
     "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <span class=\"secondaryHeading text-nowrap\">Experience</span>"
   },
   "toolsSection": {
-    "heading": "<span class=\"text-nowrap\">Workflow</span> <span class=\"secondaryHeading text-nowrap\">Tools</span>"
+    "heading": "<span class=\"text-nowrap\">Build</span> <span class=\"secondaryHeading text-nowrap\">Tools</span>"
+  },
+  "blogSection": {
+    "heading": "<span class=\"text-nowrap\">Developer</span> <span class=\"secondaryHeading text-nowrap\">Thoughts</span>"
   }
 }

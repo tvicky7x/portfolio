@@ -4,6 +4,7 @@ import MainHeading from "@/components/UtilityComponents/MainHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
 import React from "react";
 import recentProjectsHomeJson from "@/data/recent-projects-home.json";
+import staticRoutes from "@/utilities/staticRoutes";
 
 async function RecentProjectsSection() {
   const content = getComponentTexts("recentProjectsSection");
@@ -15,7 +16,9 @@ async function RecentProjectsSection() {
           {recentProjectsHomeJson?.recentProjects?.map((item, index) => {
             return (
               <li key={index} title={item?.title}>
-                <LinkListContainer link={item?.link}>
+                <LinkListContainer
+                  link={`${staticRoutes?.projects}${item?.link}`}
+                >
                   <div className="flex gap-x-[20px]">
                     <div
                       style={{

@@ -1,4 +1,5 @@
 import MainLayout from "@/components/Layouts/MainLayout";
+import BlogSection from "@/components/SectionComponents/BlogSection/BlogSection";
 import ExperienceSection from "@/components/SectionComponents/ExperienceSection/ExperienceSection";
 import HeroSection from "@/components/SectionComponents/HeroSection/HeroSection";
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
@@ -20,6 +21,7 @@ function page() {
           <RecentProjectsSection />
           <ExperienceSection />
           <ToolsSection />
+          <BlogSection />
         </div>
       </div>
     </MainLayout>

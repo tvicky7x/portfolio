@@ -1,0 +1,25 @@
+{
+  "blogs": [
+    {
+      "title": "Starting and Growing a Career in Web Design",
+      "description": "As the internet continues to develop and grow exponentially, jobs related to the industry do too, particularly those that relate to web design and development.",
+      "publishedDate": "Apr 8, 2022",
+      "readTime": "5",
+      "link": "/section-animation-wrapper"
+    },
+    {
+      "title": "Starting and Growing a Career in Web Design",
+      "description": "As the internet continues to develop and grow exponentially, jobs related to the industry do too, particularly those that relate to web design and development.",
+      "publishedDate": "Apr 8, 2022",
+      "readTime": "5",
+      "link": "/section-animation-wrapper"
+    },
+    {
+      "title": "Starting and Growing a Career in Web Design",
+      "description": "As the internet continues to develop and grow exponentially, jobs related to the industry do too, particularly those that relate to web design and development.",
+      "publishedDate": "Apr 8, 2022",
+      "readTime": "5",
+      "link": "/section-animation-wrapper"
+    }
+  ]
+}
