@@ -80,5 +80,8 @@
   },
   "recentProjectsSection": {
     "heading": "<span class=\"text-nowrap\">Recent</span> <span class=\"secondaryHeading text-nowrap\">Projects</span>"
+  },
+  "experienceSection": {
+    "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <span class=\"secondaryHeading text-nowrap\">Experience</span>"
   }
 }

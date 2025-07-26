@@ -1,4 +1,5 @@
 import MainLayout from "@/components/Layouts/MainLayout";
+import ExperienceSection from "@/components/SectionComponents/ExperienceSection/ExperienceSection";
 import HeroSection from "@/components/SectionComponents/HeroSection/HeroSection";
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
 import RecentProjectsSection from "@/components/SectionComponents/RecentProjectsSection/RecentProjectsSection";
@@ -16,6 +17,7 @@ function page() {
         <div className="flex grow flex-col gap-y-[80px] md:gap-y-[90px] lg:gap-y-[120px]">
           <HeroSection />
           <RecentProjectsSection />
+          <ExperienceSection />
         </div>
       </div>
     </MainLayout>
