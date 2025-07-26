@@ -12,7 +12,7 @@ function LinkListContainer({ children, link = "", target = "_self" }) {
       {children}
       <ArrowRight
         size={20}
-        className="text-primary-accent absolute top-[30px] right-[10px] hidden -rotate-45 transition-all duration-500 ease-in-out group-hover:top-[20px] group-hover:right-0 md:block"
+        className="text-primary-accent absolute top-[30px] right-[10px] hidden -rotate-45 transition-all duration-500 ease-in-out group-hover:top-[20px] group-hover:right-[6px] md:block"
       />
     </Link>
   );

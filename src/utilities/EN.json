@@ -89,5 +89,8 @@
   },
   "blogSection": {
     "heading": "<span class=\"text-nowrap\">Developer</span> <span class=\"secondaryHeading text-nowrap\">Thoughts</span>"
+  },
+  "connectSection": {
+    "heading": "<span class=\"text-nowrap\">Let's Work</span> <span class=\"secondaryHeading text-nowrap\">Together</span>"
   }
 }

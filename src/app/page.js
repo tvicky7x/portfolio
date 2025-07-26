@@ -1,5 +1,6 @@
 import MainLayout from "@/components/Layouts/MainLayout";
 import BlogSection from "@/components/SectionComponents/BlogSection/BlogSection";
+import ConnectSection from "@/components/SectionComponents/ConnectSection/ConnectSection";
 import ExperienceSection from "@/components/SectionComponents/ExperienceSection/ExperienceSection";
 import HeroSection from "@/components/SectionComponents/HeroSection/HeroSection";
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
@@ -22,6 +23,7 @@ function page() {
           <ExperienceSection />
           <ToolsSection />
           <BlogSection />
+          <ConnectSection />
         </div>
       </div>
     </MainLayout>

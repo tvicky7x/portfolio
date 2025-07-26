@@ -13,6 +13,7 @@
   --input-text-color: #ffffff;
   --primary-accent-color: #f46c38;
   --secondary-accent-color: #c5ff41;
+  --primary-accent-hover: #de6230;
 }
 
 @theme inline {
@@ -28,6 +29,7 @@
   --color-input-text: var(--input-text-color);
   --color-primary-accent: var(--primary-accent-color);
   --color-secondary-accent: var(--secondary-accent-color);
+  --color-primary-accent-hover: var(--primary-accent-hover);
 
   /* custom breakpoint */
   --breakpoint-2xl: 1440px;
