@@ -1,0 +1,28 @@
+{
+  "recentProjects": [
+    {
+      "title": "Project A",
+      "smallDescription": "A brief description of Project A.",
+      "description": "A brief description of Project A.",
+      "imageUrl": "/png/project.png",
+      "link": "/project-a",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Project A",
+      "smallDescription": "A brief description of Project A.",
+      "description": "A brief description of Project A.",
+      "imageUrl": "/png/project.png",
+      "link": "/project-a",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Project A",
+      "smallDescription": "A brief description of Project A.",
+      "description": "A brief description of Project A.",
+      "imageUrl": "/png/project.png",
+      "link": "/project-a",
+      "technologies": ["React", "Node.js", "MongoDB"]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "navbarList": [
+      {
+        "name": "Home",
+        "link": "home",
+        "icon": "home"
+      },
+      {
+        "name": "Projects",
+        "link": "projects",
+        "icon": "projects"
+      },
+      {
+        "name": "Experience",
+        "link": "experience",
+        "icon": "experience"
+      },
+      {
+        "name": "Tools",
+        "link": "tools",
+        "icon": "tools"
+      },
+      { "name": "Blogs", "link": "blogs", "icon": "blogs" }
+    ]
+  },
+  "profileCard": {
+    "name": "T Vicky",
+    "title": "Full Stack Developer",
+    "description": "Passionate Full Stack Developer with expertise in React, Node.js, and MongoDB.",
+    "socialLinks": [
+      {
+        "platform": "GitHub",
+        "link": "github",
+        "icon": "github"
+      },
+      {
+        "platform": "LinkedIn",
+        "link": "linkedin",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "Twitter",
+        "link": "twitter",
+        "icon": "twitter"
+      },
+      {
+        "platform": "Email",
+        "link": "mail",
+        "icon": "mail"
+      }
+    ]
+  },
+  "heroSection": {
+    "heading": "<span class=\"text-nowrap\">Full Stack</span> <span class=\"secondaryHeading text-nowrap\">Developer</span>",
+    "para": "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
+    "cardList": [
+      {
+        "title": "my development <br>journey",
+        "link": "experience",
+        "icon": "experience"
+      },
+      {
+        "title": "interactive web <br>projects",
+        "link": "projects",
+        "icon": "projects"
+      }
+    ]
+  },
+  "recentProjectsSection": {
+    "heading": "<span class=\"text-nowrap\">Recent</span> <span class=\"secondaryHeading text-nowrap\">Projects</span>"
+  },
+  "experienceSection": {
+    "heading": "<span class=\"text-nowrap\">1.6 Years of</span> <span class=\"secondaryHeading text-nowrap\">Experience</span>"
+  },
+  "toolsSection": {
+    "heading": "<span class=\"text-nowrap\">Build</span> <span class=\"secondaryHeading text-nowrap\">Tools</span>"
+  },
+  "blogSection": {
+    "heading": "<span class=\"text-nowrap\">Developer</span> <span class=\"secondaryHeading text-nowrap\">Thoughts</span>"
+  },
+  "connectSection": {
+    "heading": "<span class=\"text-nowrap\">Let's Work</span> <span class=\"secondaryHeading text-nowrap\">Together</span>"
+  }
+}
