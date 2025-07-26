@@ -1,6 +1,7 @@
 import MainLayout from "@/components/Layouts/MainLayout";
 import HeroSection from "@/components/SectionComponents/HeroSection/HeroSection";
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
+import RecentProjectsSection from "@/components/SectionComponents/RecentProjectsSection/RecentProjectsSection";
 import React from "react";
 
 function page() {
@@ -12,9 +13,9 @@ function page() {
             <ProfileCard />
           </div>
         </div>
-        <div className="grow">
+        <div className="flex grow flex-col gap-y-[80px] md:gap-y-[90px] lg:gap-y-[120px]">
           <HeroSection />
-          {/* Add other sections here as needed */}
+          <RecentProjectsSection />
         </div>
       </div>
     </MainLayout>

@@ -77,5 +77,8 @@
         "icon": "projects"
       }
     ]
+  },
+  "recentProjectsSection": {
+    "heading": "<span class=\"text-nowrap\">Recent</span> <span class=\"secondaryHeading text-nowrap\">Projects</span>"
   }
 }

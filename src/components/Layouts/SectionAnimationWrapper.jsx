@@ -12,14 +12,13 @@ function SectionAnimationWrapper({ children, id }) {
       .timeline({
         scrollTrigger: {
           trigger: `#${id}`,
-          start: "top center",
-          end: "bottom center",
+          start: "top bottom-=200",
         },
       })
       .fromTo(
         `#${id}`,
         { opacity: 0, y: -20 },
-        { opacity: 1, y: 0, duration: 1 }
+        { opacity: 1, y: 0, duration: 1 },
       );
   }, [id]);
 
