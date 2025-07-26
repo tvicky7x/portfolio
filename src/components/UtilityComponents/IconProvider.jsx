@@ -16,7 +16,7 @@ import React from "react";
 
 function IconProvider({
   icon,
-  size = 24,
+  size = 20,
   color = "currentColor",
   strokeWidth = 1.6,
   className = "",

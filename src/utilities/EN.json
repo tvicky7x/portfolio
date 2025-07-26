@@ -23,5 +23,32 @@
       },
       { "name": "Blog", "link": "#blog", "icon": "blog" }
     ]
+  },
+  "profileCard": {
+    "name": "T Vicky",
+    "title": "Full Stack Developer",
+    "description": "Passionate Full Stack Developer with expertise in React, Node.js, and MongoDB.",
+    "socialLinks": [
+      {
+        "platform": "GitHub",
+        "link": "github",
+        "icon": "github"
+      },
+      {
+        "platform": "LinkedIn",
+        "link": "linkedin",
+        "icon": "linkedin"
+      },
+      {
+        "platform": "Twitter",
+        "link": "twitter",
+        "icon": "twitter"
+      },
+      {
+        "platform": "Email",
+        "link": "mail",
+        "icon": "mail"
+      }
+    ]
   }
 }

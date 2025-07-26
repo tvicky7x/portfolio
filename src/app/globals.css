@@ -35,3 +35,8 @@ body {
   color: var(--primary-text-color);
   font-family: "Poppins", sans-serif;
 }
+
+.linkColor a {
+  color: var(--primary-accent-color);
+  text-decoration: none;
+}
