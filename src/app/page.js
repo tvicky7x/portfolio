@@ -6,8 +6,8 @@ import React from "react";
 function page() {
   return (
     <MainLayout>
-      <div className="flex flex-col gap-x-0 lg:flex-row lg:gap-x-[100px]">
-        <div className="w-full max-w-none lg:max-w-[344px]">
+      <div className="1080:flex-row 1440:gap-[100px] 1080:gap-[50px] flex flex-col gap-[40px]">
+        <div className="1080:max-w-[344px] w-full max-w-none">
           <div className="sticky top-[40px]">
             <ProfileCard />
           </div>

@@ -8,9 +8,9 @@ function MainLayout({
   innerStyle,
 }) {
   return (
-    <div className={`px-[20px] ${outerClassName}`} style={outerStyle}>
+    <div className={` ${outerClassName}`} style={outerStyle}>
       <div
-        className={`max-w-none md:max-w-[750px] lg:max-w-[1140px] mx-auto ${innerClassName}`}
+        className={`1080:max-w-[1140px] 810:px-[40px] mx-auto max-w-[810px] px-[20px] ${innerClassName}`}
         style={innerStyle}
       >
         {children}

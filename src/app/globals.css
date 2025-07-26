@@ -28,10 +28,20 @@
   --color-input-text: var(--input-text-color);
   --color-primary-accent: var(--primary-accent-color);
   --color-secondary-accent: var(--secondary-accent-color);
+
+  /* custom breakpoint */
+  --breakpoint-1440: 1440px;
+  --breakpoint-1400: 1400px;
+  --breakpoint-1080: 1080px;
+  --breakpoint-810: 810px;
 }
 
 body {
   background: var(--background);
   color: var(--primary-text-color);
   font-family: "Poppins", sans-serif;
+}
+
+.secondaryHeading {
+  color: var(--secondary-text-color);
 }

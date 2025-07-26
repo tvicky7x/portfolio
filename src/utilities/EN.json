@@ -52,7 +52,7 @@
     ]
   },
   "heroSection": {
-    "heading": ["Full Stack", "Developer"],
+    "heading": "<span class=\"text-nowrap\">Full Stack</span> <span class=\"secondaryHeading text-nowrap\">Developer</span>",
     "para": "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
     "matrixList": [
       {

@@ -12,10 +12,10 @@ function HeroSection() {
 
   return (
     <SectionAnimationWrapper id={"hero-section"}>
-      <div className="flex flex-col gap-y-[60px]">
+      <div className="810:gap-y-[60px] flex flex-col gap-y-[70px]">
         <div className="flex flex-col gap-y-[10px]">
           <MainHeading heading={content?.heading} />
-          <Para para={content?.para} className={"w-[480px]"} />
+          <Para para={content?.para} className={"max-w-[480px]"} />
         </div>
         <div className="flex flex-wrap justify-start gap-x-[40px]">
           {content?.matrixList?.map((matrix, index) => {
