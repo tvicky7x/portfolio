@@ -1,5 +1,10 @@
 const staticRoutes = {
-  portfolioUrl: "#",
+  home: "/",
+  projects: "/projects",
+  experience: "/experience",
+  tools: "/tools",
+  blog: "/blog",
+  resume: "",
   vercel: "https://vercel.com",
   github: "https://github.com/tvicky7x",
   twitter: "https://x.com/tvicky_dev",

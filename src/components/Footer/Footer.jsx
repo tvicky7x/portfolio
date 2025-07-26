@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="pt-[160px] linkColor pb-[80px] ">
       <p className="text-center">
-        Made by <a href={staticRoutes?.portfolioUrl}>T Vicky</a> | Powered by{" "}
+        Made by <a href="#">T Vicky</a> | Powered by{" "}
         <a href={staticRoutes?.vercel} target="_blank">
           Vercel
         </a>
