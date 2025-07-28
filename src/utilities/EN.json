@@ -20,8 +20,7 @@
         "name": "Tools",
         "link": "tools",
         "icon": "tools"
-      },
-      { "name": "Blogs", "link": "blogs", "icon": "blogs" }
+      }
     ]
   },
   "profileCard": {
