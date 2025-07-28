@@ -6,10 +6,13 @@ function Footer() {
   return (
     <div className="linkColor pt-[160px] pb-[80px]">
       <p className="text-center">
-        Made with ❤️, ☕, and countless commits by{" "}
-        <Link href={staticRoutes?.home} className="text-primary-accent">
-          T Vicky
-        </Link>
+        <span className="text-nowrap">Made with ❤️, ☕, and</span>{" "}
+        <span className="text-nowrap">
+          countless commits by{" "}
+          <Link href={staticRoutes?.home} className="text-primary-accent">
+            T Vicky
+          </Link>
+        </span>
       </p>
     </div>
   );
