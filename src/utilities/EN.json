@@ -55,14 +55,14 @@
     "para": "Designing and developing interfaces with attention to detail. Ensuring performance, usability, and long-term maintainability.",
     "cardList": [
       {
-        "title": "my development <br>journey",
-        "link": "experience",
-        "icon": "experience"
-      },
-      {
         "title": "interactive web <br>projects",
         "link": "projects",
         "icon": "projects"
+      },
+      {
+        "title": "my development <br>journey",
+        "link": "experience",
+        "icon": "experience"
       }
     ]
   },

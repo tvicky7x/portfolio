@@ -2,6 +2,7 @@
 import SectionAnimationWrapper from "@/components/Layouts/SectionAnimationWrapper";
 import SubHeading from "@/components/UtilityComponents/SubHeading";
 import { getComponentTexts } from "@/utilities/commonFunctions";
+import { addMessage } from "@/utilities/service";
 import React, { use, useState } from "react";
 
 function ConnectSection() {
@@ -12,6 +13,7 @@ function ConnectSection() {
     message: "",
   });
   const [emailInvalid, setEmailInvalid] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   //   handle input changes
   function handleInputChanges(e, key) {
@@ -54,17 +56,34 @@ function ConnectSection() {
   // form submit
   async function handleSubmit(e) {
     e.preventDefault();
-    let emailInvalid = checkEmailValidation(inputValues?.email);
-    if (!emailInvalid) {
+
+    let emailIsValid = checkEmailValidation(inputValues?.email);
+    if (!emailIsValid) {
       setEmailInvalid(true);
       return;
     }
+
     try {
-      e.target.reset();
-      setInputValues({ name: "", email: "", message: "" });
-      setEmailInvalid(false);
+      setLoading(true); // start loading
+
+      const response = await addMessage({
+        name: inputValues.name,
+        email: inputValues.email,
+        message: inputValues.message,
+        path: window.location.origin,
+      });
+
+      console.log("API Response:", response);
+
+      if (response?.status === "success") {
+        e.target.reset();
+        setInputValues({ name: "", email: "", message: "" });
+        setEmailInvalid(false);
+      }
     } catch (error) {
-      console.log("error", error);
+      console.error("Error submitting form:", error);
+    } finally {
+      setLoading(false); // stop loading
     }
   }
 
@@ -135,9 +154,14 @@ function ConnectSection() {
           </div>
           <button
             type="submit"
-            className="bg-primary-accent text-tertiary-text hover:bg-primary-accent-hover cursor-pointer rounded-[8px] pt-[10.5px] pb-[11.6px] text-center text-[14px] leading-[16.8px] font-semibold transition-all duration-300 ease-in-out"
+            disabled={loading}
+            className={`bg-primary-accent text-tertiary-text cursor-pointer rounded-[8px] pt-[10.5px] pb-[11.6px] text-center text-[14px] leading-[16.8px] font-semibold transition-all duration-300 ease-in-out ${
+              loading
+                ? "hover:bg-primary-accent cursor-not-allowed opacity-70"
+                : "hover:bg-primary-accent-hover"
+            }`}
           >
-            Submit
+            {loading ? "Sending..." : "Submit"}
           </button>
         </form>
       </div>
