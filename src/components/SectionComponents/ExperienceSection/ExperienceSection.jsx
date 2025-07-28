@@ -18,7 +18,7 @@ function ExperienceSection({ experienceList }) {
               >
                 <div className="flex max-w-none flex-col gap-y-[13px] md:max-w-[420px]">
                   <p className="text-tertiary-text text-[18px] leading-[120%] font-semibold md:text-[20px] lg:text-[26px]">
-                    {item?.company}
+                    {item?.company} - {item?.role}
                   </p>
                   <p className="text-base leading-[140%]">
                     {item?.description}

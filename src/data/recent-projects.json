@@ -1,52 +1,76 @@
 {
   "recentProjects": [
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "Pocketful - Financial Calculators",
+      "smallDescription": "Smart Financial Calculators",
+      "description": "A collection of interactive financial calculators designed to simplify complex calculations, built for accuracy and ease of use.",
+      "imageUrl": "/png/pocketful-financial-calculators.png",
+      "slug": "pocketful-financial-calculators",
+      "projectLink": "https://www.pocketful.in/calculators",
+      "technologies": ["Next.js", "Chart.js"]
     },
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "Pocketful - Algo API Website",
+      "smallDescription": "Algo Trading API Platform",
+      "description": "Developed and integrated the Algo Trading API, enabling automated trading workflows with secure endpoints, data handling, and smooth UI for API interaction.",
+      "imageUrl": "/png/pocketful-algo-api.png",
+      "slug": "pocketful-algo-api",
+      "projectLink": "https://api.pocketful.in/",
+      "technologies": ["Next.js", "Framer Motion", "CRUD API Integration"]
     },
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "Pocketful - Gold & Silver Rates",
+      "smallDescription": "Daily Precious Metal Prices",
+      "description": "Developed a platform to display live gold and silver prices across states, featuring interactive charts and state-wise price tracking.",
+      "imageUrl": "/png/pocketful-gold-silver-rates.png",
+      "slug": "pocketful-gold-silver-rates",
+      "projectLink": "https://www.pocketful.in/gold-rates",
+      "technologies": ["Next.js", "Chart.js"]
     },
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "Pocketful - Landing Page",
+      "smallDescription": "Official Pocketful Homepage",
+      "description": "Designed and developed the main landing page for Pocketful, focusing on clear messaging, smooth animations, and responsive design.",
+      "imageUrl": "/png/pocketful-landing-page.png",
+      "slug": "pocketful-landing-page",
+      "projectLink": "https://www.pocketful.in/",
+      "technologies": ["Next.js", "Framer Motion"]
     },
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "MiniArcade - Offline Games Chrome Extension",
+      "smallDescription": "Offline Games for Chrome",
+      "description": "Built a Chrome extension offering a collection of offline games, designed for seamless play without internet connectivity.",
+      "imageUrl": "/png/miniarcade-chrome-extension.png",
+      "slug": "miniarcade-chrome-extension",
+      "projectLink": "https://chromewebstore.google.com/detail/miniarcade-offline-games/gnhcglbalocgjjcnibfljgbpgilnjnda?authuser=0&hl=en-GB",
+      "technologies": ["React", "Chrome Extension Manifest V3"]
     },
     {
-      "title": "Project A",
-      "smallDescription": "A brief description of Project A.",
-      "description": "A brief description of Project A.",
-      "imageUrl": "/png/project.png",
-      "link": "/project-a",
-      "technologies": ["React", "Node.js", "MongoDB"]
+      "title": "Pocketful - Authorized Person",
+      "smallDescription": "Sub Broker Partnership Platform",
+      "description": "A straightforward platform for users to register and become authorized sub brokers with Pocketful, featuring smooth animations and easy navigation.",
+      "imageUrl": "/png/pocketful-authorized-person.png",
+      "slug": "pocketful-authorized-person",
+      "projectLink": "https://www.pocketful.in/authorised-person",
+      "technologies": ["Next.js", "Framer Motion"]
+    },
+    {
+      "title": "Apple Watch Studio Clone",
+      "smallDescription": "Responsive Apple Watch Studio Replica",
+      "description": "A pixel-perfect clone of the Apple Watch Studio website, built with Next.js focusing on responsiveness and smooth user interactions.",
+      "imageUrl": "/png/apple-watch-studio-clone.png",
+      "slug": "apple-watch-studio-clone",
+      "projectLink": "https://apple-watch-clone-eight.vercel.app/",
+      "technologies": ["Next.js"]
+    },
+    {
+      "title": "Joybox - MailBox Project",
+      "smallDescription": "Feature-rich Mailbox Application",
+      "description": "Developed a responsive mailbox app with React, Redux for state management, and Firebase for real-time data and authentication.",
+      "imageUrl": "/png/joybox-mailbox-project.png",
+      "slug": "joybox-mailbox-project",
+      "projectLink": "https://joybox-mail.web.app/auth",
+      "technologies": ["React", "Redux", "Firebase"]
     }
   ]
 }
