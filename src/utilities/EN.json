@@ -20,14 +20,13 @@
         "name": "Tools",
         "link": "tools",
         "icon": "tools"
-      },
-      { "name": "Blogs", "link": "blogs", "icon": "blogs" }
+      }
     ]
   },
   "profileCard": {
     "name": "T Vicky",
-    "title": "Full Stack Developer",
-    "description": "Passionate Full Stack Developer with expertise in React, Node.js, and MongoDB.",
+    "title": "Frontend Developer",
+    "description": "Passionate Frontend Developer with expertise in React, Next.js, and UI/UX.",
     "socialLinks": [
       {
         "platform": "GitHub",
@@ -52,18 +51,18 @@
     ]
   },
   "heroSection": {
-    "heading": "<span class=\"text-nowrap\">Full Stack</span> <span class=\"secondaryHeading text-nowrap\">Developer</span>",
-    "para": "Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products.",
+    "heading": "<span class=\"text-nowrap\">Frontend</span> <span class=\"secondaryHeading text-nowrap\">Developer</span>",
+    "para": "Designing and developing interfaces with attention to detail. Ensuring performance, usability, and long-term maintainability.",
     "cardList": [
-      {
-        "title": "my development <br>journey",
-        "link": "experience",
-        "icon": "experience"
-      },
       {
         "title": "interactive web <br>projects",
         "link": "projects",
         "icon": "projects"
+      },
+      {
+        "title": "my development <br>journey",
+        "link": "experience",
+        "icon": "experience"
       }
     ]
   },

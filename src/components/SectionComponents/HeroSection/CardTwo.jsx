@@ -7,7 +7,10 @@ import React from "react";
 
 function CardTwo({ cardDetail }) {
   return (
-    <div className="bg-secondary-accent text-background relative flex w-full max-w-[350px] flex-col gap-y-[24px] overflow-hidden rounded-[10px] px-[20px] pt-[40px] pb-[22px]">
+    <Link
+      href={staticRoutes[cardDetail?.link]}
+      className="bg-secondary-accent text-background group relative flex w-full max-w-[350px] flex-col gap-y-[24px] overflow-hidden rounded-[10px] px-[20px] pt-[40px] pb-[22px]"
+    >
       <img
         src={imagePrefixHandler("/card-two-line.svg", "/svg")}
         alt="card two line"
@@ -28,14 +31,11 @@ function CardTwo({ cardDetail }) {
           className="text-[24px] leading-[26.4px] font-medium uppercase"
           dangerouslySetInnerHTML={{ __html: cardDetail?.title || "" }}
         ></p>
-        <Link
-          href={staticRoutes[cardDetail?.link]}
-          className="hover:text-secondary-accent border-background hover:bg-background self-end rounded-[6px] border p-[6px] transition-all duration-300 ease-in-out"
-        >
+        <div className="group-hover:text-secondary-accent border-background group-hover:bg-background self-end rounded-[6px] border p-[6px] transition-all duration-500 ease-in-out">
           <ArrowRight size={20} color="currentColor" />
-        </Link>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

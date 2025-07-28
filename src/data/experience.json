@@ -1,22 +1,16 @@
 {
   "experiences": [
     {
-      "company": "Tech Solutions Inc.",
-      "role": "Full Stack Developer",
-      "duration": "Jan 2020 - Present",
-      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
+      "company": "Pocketful",
+      "role": "Frontend SDE",
+      "duration": "Aug 2024 - Present",
+      "description": "Leading a frontend team to build and optimize large-scale Next.js projects. Integrated Google Login, payment solutions, and advanced Chart.js visualizations. Optimized performance, SEO, and scalability."
     },
     {
-      "company": "Tech Solutions Inc.",
-      "role": "Full Stack Developer",
-      "duration": "Jan 2020 - Present",
-      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
-    },
-    {
-      "company": "Tech Solutions Inc.",
-      "role": "Full Stack Developer",
-      "duration": "Jan 2020 - Present",
-      "description": "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions."
+      "company": "Pocketful",
+      "role": "Intern",
+      "duration": "Jan 2024 - Aug 2024",
+      "description": "Built landing pages, financial calculators, and corporate tools using Next.js. Improved SEO and performance, significantly increasing PageSpeed scores."
     }
   ]
 }

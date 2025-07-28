@@ -5,7 +5,6 @@ const staticRoutes = {
   tools: "/tools",
   blogs: "/blogs",
   resume: "",
-  vercel: "https://vercel.com",
   github: "https://github.com/tvicky7x",
   twitter: "https://x.com/tvicky_dev",
   linkedin: "https://www.linkedin.com/in/tvicky7x",

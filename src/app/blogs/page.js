@@ -4,8 +4,10 @@ import ConnectSection from "@/components/SectionComponents/ConnectSection/Connec
 import ProfileCard from "@/components/SectionComponents/ProfileCard/ProfileCard";
 import React from "react";
 import blogsJson from "@/data/blogs.json";
+import { notFound } from "next/navigation";
 
 function page() {
+  return notFound();
   return (
     <MainLayout>
       <div className="flex flex-col gap-[40px] lg:flex-row lg:gap-[50px] 2xl:gap-[100px]">
