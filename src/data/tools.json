@@ -1,64 +1,89 @@
 {
   "tools": [
     {
-      "name": "Nextjs",
+      "name": "Next.js",
       "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "imageUrl": "/png/next-js.png",
+      "link": "https://nextjs.org/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "React",
+      "description": "UI library",
+      "imageUrl": "/png/react.png",
+      "link": "https://react.dev/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Redux",
+      "description": "State management",
+      "imageUrl": "/png/redux.png",
+      "link": "https://redux.js.org/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Framer Motion",
+      "description": "Animation library",
+      "imageUrl": "/png/framer-motion.png",
+      "link": "https://motion.dev/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "GSAP",
+      "description": "Web animations",
+      "imageUrl": "/png/gsap.png",
+      "link": "https://www.gsap.com/"
+    },
+
+    {
+      "name": "Chart.js",
+      "description": "Data charts",
+      "imageUrl": "/png/chart-js.png",
+      "link": "https://www.chartjs.org"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Tailwind CSS",
+      "description": "CSS framework",
+      "imageUrl": "/png/tailwind-css.png",
+      "link": "https://tailwindcss.com/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Shadcn UI",
+      "description": "UI components",
+      "imageUrl": "/png/shadcn-ui.png",
+      "link": "https://ui.shadcn.com/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "JavaScript",
+      "description": "Programming language",
+      "imageUrl": "/png/js.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Node.js",
+      "description": "JS runtime",
+      "imageUrl": "/png/node-js.png",
+      "link": "https://nodejs.org/"
     },
     {
-      "name": "Nextjs",
-      "description": "React framework",
-      "imageUrl": "/png/nextjs.png",
-      "link": "https://nextjs.org"
+      "name": "Express.js",
+      "description": "Backend framework",
+      "imageUrl": "/png/express-js.png",
+      "link": "https://expressjs.com/"
+    },
+    {
+      "name": "GitHub",
+      "description": "Code hosting",
+      "imageUrl": "/png/github.png",
+      "link": "https://github.com/"
+    },
+    {
+      "name": "Firebase",
+      "description": "BaaS platform",
+      "imageUrl": "/png/firebase.png",
+      "link": "https://firebase.google.com/"
+    },
+    {
+      "name": "Chrome Extensions (MV3)",
+      "description": "Browser add-ons",
+      "imageUrl": "/png/chrome-extension.png",
+      "link": "https://developer.chrome.com/docs/extensions"
     }
   ]
 }

@@ -9,7 +9,7 @@ import ToolsSection from "@/components/SectionComponents/ToolsSection/ToolsSecti
 import React from "react";
 import recentProjectsJson from "@/data/recent-projects.json";
 import experienceJson from "@/data/experience.json";
-import toolsHomeJson from "@/data/tools-home.json";
+import toolsJson from "@/data/tools.json";
 import blogsHomeJson from "@/data/blogs-home.json";
 
 function page() {
@@ -29,7 +29,7 @@ function page() {
           <ExperienceSection
             experienceList={experienceJson?.experiences?.slice(0, 2)}
           />
-          <ToolsSection toolsList={toolsHomeJson?.tools} />
+          <ToolsSection toolsList={toolsJson?.tools?.slice(0, 6)} />
           <BlogSection blogsList={blogsHomeJson?.blogs} />
           <ConnectSection />
         </div>
