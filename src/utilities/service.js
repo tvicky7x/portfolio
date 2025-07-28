@@ -1,7 +1,7 @@
 export async function addMessage({ name, email, message, path }) {
   try {
     const baseUrl =
-      "https://script.google.com/macros/s/AKfycbyE6EiwL4VmgWt4P00ixKN48OpFjF3BS2ISoprWrgXtZTg_i9DmQ25NMy9QtPMUZHztQg/exec";
+      "https://script.google.com/macros/s/AKfycbxFXeVdfSqVBDxPh51JqITgm_VXyQqJdGFFRjR6VVOPgjkUHpk0LJ-VlF7H3ujRhPMrbA/exec";
 
     // Create URL object
     const url = new URL(baseUrl);
