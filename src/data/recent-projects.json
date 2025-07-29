@@ -37,15 +37,6 @@
       "technologies": ["Next.js", "Framer Motion"]
     },
     {
-      "title": "MiniArcade - Offline Games Chrome Extension",
-      "smallDescription": "Offline Games for Chrome",
-      "description": "Built a Chrome extension offering a collection of offline games, designed for seamless play without internet connectivity.",
-      "imageUrl": "/png/miniarcade-chrome-extension.png",
-      "slug": "miniarcade-chrome-extension",
-      "projectLink": "https://chromewebstore.google.com/detail/miniarcade-offline-games/gnhcglbalocgjjcnibfljgbpgilnjnda?authuser=0&hl=en-GB",
-      "technologies": ["React", "Chrome Extension Manifest V3"]
-    },
-    {
       "title": "Pocketful - Authorized Person",
       "smallDescription": "Sub Broker Partnership Platform",
       "description": "A straightforward platform for users to register and become authorized sub brokers with Pocketful, featuring smooth animations and easy navigation.",
@@ -53,6 +44,15 @@
       "slug": "pocketful-authorized-person",
       "projectLink": "https://www.pocketful.in/authorised-person",
       "technologies": ["Next.js", "Framer Motion"]
+    },
+    {
+      "title": "MiniArcade - Offline Games Chrome Extension",
+      "smallDescription": "Offline Games for Chrome",
+      "description": "Built a Chrome extension offering a collection of offline games, designed for seamless play without internet connectivity.",
+      "imageUrl": "/png/miniarcade-chrome-extension.png",
+      "slug": "miniarcade-chrome-extension",
+      "projectLink": "https://chromewebstore.google.com/detail/miniarcade-offline-games/gnhcglbalocgjjcnibfljgbpgilnjnda?authuser=0&hl=en-GB",
+      "technologies": ["React", "Chrome Extension Manifest V3"]
     },
     {
       "title": "Apple Watch Studio Clone",
@@ -71,6 +71,15 @@
       "slug": "joybox-mailbox-project",
       "projectLink": "https://joybox-mail.web.app/auth",
       "technologies": ["React", "Redux", "Firebase"]
+    },
+    {
+      "title": "XpenseAi - Expense Tracker Project",
+      "smallDescription": "Expense Tracking App",
+      "description": "Built a responsive expense tracker with React, Redux for state management, and Firebase for secure authentication and real-time data storage.",
+      "imageUrl": "/png/xpense-ai-project.png",
+      "slug": "xpense-ai-expense-tracker",
+      "projectLink": "https://xpense-ai.web.app/",
+      "technologies": ["React", "Redux", "Chart.js", "Firebase"]
     }
   ]
 }
