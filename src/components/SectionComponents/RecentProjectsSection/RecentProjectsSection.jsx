@@ -14,7 +14,7 @@ async function RecentProjectsSection({ projectsList }) {
         <ul>
           {projectsList?.map((item, index) => {
             return (
-              <li key={index} title={item?.title}>
+              <li key={item?.slug} title={item?.title}>
                 <LinkListContainer
                   // link={`${staticRoutes?.projects}${item?.link}`}
                   link={`${item?.projectLink}`}
