@@ -1,6 +1,15 @@
 {
   "recentProjects": [
     {
+      "title": "Pocketful - Stocks",
+      "smallDescription": "Live Stock Market Explorer",
+      "description": "Built a high-performance stocks platform featuring live market data, interactive charts, and advanced data tables — optimized for sub-100ms load times per stock for a seamless browsing experience.",
+      "imageUrl": "/png/pocketful-stocks.png",
+      "slug": "pocketful-stocks",
+      "projectLink": "https://www.pocketful.in/stocks",
+      "technologies": ["Next.js", "Chart.js", "GSAP", "D3.js", "TanStack Table"]
+    },
+    {
       "title": "Pocketful - Financial Calculators",
       "smallDescription": "Smart Financial Calculators",
       "description": "A collection of interactive financial calculators designed to simplify complex calculations, built for accuracy and ease of use.",
