@@ -19,6 +19,21 @@
       "technologies": ["Next.js", "Chart.js"]
     },
     {
+      "title": "Pocketful - Breakout Event Management",
+      "smallDescription": "Live Event & Ticketing Platform",
+      "description": "Built a full-scale event management platform for Pocketful's Breakout event, featuring real-time payment integration via Cashfree, end-to-end ticket management, and a live QR-based ticket scanning system — all wrapped in smooth GSAP-powered animations.",
+      "imageUrl": "/png/pocketful-breakout.png",
+      "slug": "pocketful-breakout",
+      "projectLink": "https://breakout.pocketful.in/",
+      "technologies": [
+        "Next.js",
+        "GSAP",
+        "Cashfree Payments",
+        "Ticket Management",
+        "QR Scanning"
+      ]
+    },
+    {
       "title": "Pocketful - Algo API Website",
       "smallDescription": "Algo Trading API Platform",
       "description": "Developed and integrated the Algo Trading API, enabling automated trading workflows with secure endpoints, data handling, and smooth UI for API interaction.",

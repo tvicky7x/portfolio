@@ -1,10 +1,10 @@
 {
   "tools": [
     {
-      "name": "Next.js",
-      "description": "React framework",
-      "imageUrl": "/png/next-js.png",
-      "link": "https://nextjs.org/"
+      "name": "JavaScript",
+      "description": "Programming language",
+      "imageUrl": "/png/js.png",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
       "name": "React",
@@ -13,29 +13,16 @@
       "link": "https://react.dev/"
     },
     {
-      "name": "Redux",
-      "description": "State management",
-      "imageUrl": "/png/redux.png",
-      "link": "https://redux.js.org/"
+      "name": "Next.js",
+      "description": "React framework",
+      "imageUrl": "/png/next-js.png",
+      "link": "https://nextjs.org/"
     },
     {
-      "name": "Framer Motion",
-      "description": "Animation library",
-      "imageUrl": "/png/framer-motion.png",
-      "link": "https://motion.dev/"
-    },
-    {
-      "name": "GSAP",
-      "description": "Web animations",
-      "imageUrl": "/png/gsap.png",
-      "link": "https://www.gsap.com/"
-    },
-
-    {
-      "name": "Chart.js",
-      "description": "Data charts",
-      "imageUrl": "/png/chart-js.png",
-      "link": "https://www.chartjs.org"
+      "name": "TypeScript",
+      "description": "Typed JavaScript",
+      "imageUrl": "/png/typescript.png",
+      "link": "https://www.typescriptlang.org/"
     },
     {
       "name": "Tailwind CSS",
@@ -44,16 +31,52 @@
       "link": "https://tailwindcss.com/"
     },
     {
+      "name": "React Router",
+      "description": "Client-side routing",
+      "imageUrl": "/png/react-router.png",
+      "link": "https://reactrouter.com/"
+    },
+    {
+      "name": "Redux Toolkit",
+      "description": "State management",
+      "imageUrl": "/png/redux.png",
+      "link": "https://redux-toolkit.js.org/"
+    },
+    {
+      "name": "Jotai",
+      "description": "Atomic state management",
+      "imageUrl": "/png/jotai.png",
+      "link": "https://jotai.org/"
+    },
+    {
+      "name": "Tanstack Query",
+      "description": "Async state management",
+      "imageUrl": "/png/tanstack.png",
+      "link": "https://tanstack.com/query"
+    },
+    {
+      "name": "Axios",
+      "description": "HTTP client",
+      "imageUrl": "/png/axios.png",
+      "link": "https://axios-http.com/"
+    },
+    {
       "name": "Shadcn UI",
       "description": "UI components",
       "imageUrl": "/png/shadcn-ui.png",
       "link": "https://ui.shadcn.com/"
     },
     {
-      "name": "JavaScript",
-      "description": "Programming language",
-      "imageUrl": "/png/js.png",
-      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      "name": "Vite",
+      "description": "Frontend build tool",
+      "imageUrl": "/png/vite.png",
+      "link": "https://vitejs.dev/"
+    },
+    {
+      "name": "ESLint + Prettier",
+      "description": "Code quality tools",
+      "imageUrl": "/png/eslint.png",
+      "link": "https://eslint.org/"
     },
     {
       "name": "Node.js",
@@ -68,16 +91,70 @@
       "link": "https://expressjs.com/"
     },
     {
-      "name": "GitHub",
-      "description": "Code hosting",
-      "imageUrl": "/png/github.png",
-      "link": "https://github.com/"
+      "name": "Tanstack Table",
+      "description": "Headless table library",
+      "imageUrl": "/png/tanstack.png",
+      "link": "https://tanstack.com/table"
+    },
+    {
+      "name": "Chart.js",
+      "description": "Data charts",
+      "imageUrl": "/png/chart-js.png",
+      "link": "https://www.chartjs.org"
+    },
+    {
+      "name": "D3.js",
+      "description": "Data visualization",
+      "imageUrl": "/png/d3-js.png",
+      "link": "https://d3js.org/"
+    },
+    {
+      "name": "Framer Motion",
+      "description": "Animation library",
+      "imageUrl": "/png/framer-motion.png",
+      "link": "https://motion.dev/"
+    },
+    {
+      "name": "GSAP",
+      "description": "Web animations",
+      "imageUrl": "/png/gsap.png",
+      "link": "https://www.gsap.com/"
+    },
+    {
+      "name": "Three.js",
+      "description": "3D graphics library",
+      "imageUrl": "/png/three-js.png",
+      "link": "https://threejs.org/"
+    },
+    {
+      "name": "GLSL",
+      "description": "GPU shader language",
+      "imageUrl": "/png/glsl.png",
+      "link": "https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)"
     },
     {
       "name": "Firebase",
       "description": "BaaS platform",
       "imageUrl": "/png/firebase.png",
       "link": "https://firebase.google.com/"
+    },
+    {
+      "name": "Vercel",
+      "description": "Deployment platform",
+      "imageUrl": "/png/vercel.png",
+      "link": "https://vercel.com/"
+    },
+    {
+      "name": "GitHub",
+      "description": "Code hosting",
+      "imageUrl": "/png/github.png",
+      "link": "https://github.com/tvicky7x"
+    },
+    {
+      "name": "Postman",
+      "description": "API testing tool",
+      "imageUrl": "/png/postman.png",
+      "link": "https://www.postman.com/"
     },
     {
       "name": "Chrome Extensions (MV3)",
